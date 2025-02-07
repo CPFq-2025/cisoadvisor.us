@@ -1,0 +1,24 @@
+// filepath: /cisoadvisor.us/cisoadvisor.us/assets/css/main.scss
+@import "../../_sass/minimal-mistakes/base";
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// Add your custom styles below this line.

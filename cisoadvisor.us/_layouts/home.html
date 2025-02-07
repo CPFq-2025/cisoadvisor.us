@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+    <title>CISO Advisor</title>
+</head>
+<body>
+    <header>
+        <h1>CISO Advisor</h1>
+        <nav>
+            {% for item in site.data.navigation %}
+                <a href="{{ item.url }}">{{ item.title }}</a>
+            {% endfor %}
+        </nav>
+    </header>
+
+    <main>
+At CISOadvisor.us, we provide invaluable guidance for businesses navigating the complexities of cybersecurity risk management and digital transformation. Our platform is designed to empower leaders and decision-makers with expert advice, actionable strategies, and the latest insights in business and technology. Whether you're looking to enhance your cybersecurity posture or drive successful digital transformation, CISOadvisor.us is your trusted partner on the journey.    </main>
+
+    {% include footer.html %}
+</body>
+</html>
