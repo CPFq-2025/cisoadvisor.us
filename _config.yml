@@ -5,10 +5,12 @@ baseurl: ""
 author:
   name: Christophe Foulon
   email: info@cisoadvisor.us
-theme: minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-include-cache
 markdown: kramdown
 permalink: pretty
 social:
