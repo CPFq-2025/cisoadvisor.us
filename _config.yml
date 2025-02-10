@@ -12,6 +12,8 @@ plugins:
   - jekyll-include-cache
 markdown: kramdown
 permalink: pretty
+include:
+  - _includes/head-custom.html
 social:
   twitter: your_twitter_handle
   linkedin: your_linkedin_profile
